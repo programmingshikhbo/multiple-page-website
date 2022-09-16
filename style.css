@@ -130,3 +130,36 @@ main{
      color: gray;
      margin-top: 10px;
 }
+
+/* previous next page code */
+
+#previous-next-parent{
+     margin-top: 100px;
+     display: flex;
+     justify-content: space-between;
+}
+#previous-next-parent h3 a{
+     background-color: #04AA6D;
+     padding: 10px 25px;
+     border-radius: 5px;
+     transition: 0.5s;
+}
+#previous-next-parent h3 a:hover{
+     background-color: #028354;
+}
+#previous-next-parent a{
+     text-decoration: none;
+     color: white;
+}
+#previous-next-parent div a{
+     margin: 0 10px;
+     background-color: antiquewhite;
+     color: black;
+     padding: 8px;
+     border-radius: 5px;
+     border: 1px solid #80808069;
+}
+#previous-next-parent div a:first-child{
+     background-color: #04AA6D;
+     color: white;
+}
